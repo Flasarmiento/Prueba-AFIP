@@ -1,0 +1,273 @@
+
+.table td .btn {
+	margin-bottom:0 !important;
+}
+
+.table {
+	width:100%;
+}
+
+
+.table-not-responsive {
+  width: auto !important;
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+.table-not-responsive > thead > tr > th,
+.table-not-responsive > tbody > tr > th,
+.table-not-responsive > tfoot > tr > th,
+.table-not-responsive > thead > tr > td,
+.table-not-responsive > tbody > tr > td,
+.table-not-responsive > tfoot > tr > td {
+  padding: 8px;
+  line-height: 1.42857143;
+  vertical-align: top;
+  border-top: 1px solid #ddd;
+}
+.table-not-responsive > thead > tr > th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #ddd;
+}
+.table-not-responsive > caption + thead > tr:first-child > th,
+.table-not-responsive > colgroup + thead > tr:first-child > th,
+.table-not-responsive > thead:first-child > tr:first-child > th,
+.table-not-responsive > caption + thead > tr:first-child > td,
+.table-not-responsive > colgroup + thead > tr:first-child > td,
+.table-not-responsive > thead:first-child > tr:first-child > td {
+  border-top: 0;
+}
+.table-not-responsive > tbody + tbody {
+  border-top: 2px solid #ddd;
+}
+.table-not-responsive .table-not-responsive {
+  background-color: #fff;
+}
+
+.table-not-responsive th {
+  line-height: 1.2; }
+  .table-not-responsive th a {
+    color: #111; }
+    .table-not-responsive th a:hover {
+      text-decoration: underline;
+      cursor: pointer; }
+.table-not-responsive td small {
+  color: #767676;
+  font-weight: normal; }
+.table-not-responsive td.td-strong {
+  font-size: 1.1em;
+  font-weight: bold; }
+.table-not-responsive td.td-fixed {
+  width: 8%; }
+.table-not-responsive.table-align-middle td {
+  vertical-align: middle; }
+.table-not-responsive.table-spaced td,
+.table-not-responsive.table-spaced th {
+  padding: 14px 8px; }
+.table-not-responsive.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #f0f0f0; }
+
+
+
+
+
+tr.list_row2:hover > td > div.test {
+    /* undo above rules */
+}
+
+@media only screen and (max-width: 800px) {
+    /* Hide table headers (but not display: none;, for accessibility) */
+    /* Force table to not be like tables anymore */
+	.table table,
+    .table thead,
+    .table tbody,
+    .table th,
+    .table td,
+    .table tr {
+        display: block;
+    }
+	
+	.table-responsive .table table,
+    .table-responsive .table thead,
+    .table-responsive .table tbody,
+    .table-responsive .table th,
+    .table-responsive .table td,
+    .table-responsive .table tr {
+		
+    }
+	
+	
+
+    .table thead tr  {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+	.table-responsive  {
+		padding:25px !important;
+		background-color:#dcdcdc ;
+		
+
+       
+    }
+	
+	.table-responsive .table-not-responsive { 
+		min-width: 900px !important;
+		background-color:#FFF;
+	 
+	}
+
+   .dt-responsive tr:not(.child), .table tr, .table-bordered tr, .table-hover tr, .dt-responsive tr {
+        border: 1px solid #ccc;
+        border-radius: 6px !important;
+        -webkit-border-radius: 6px !important;
+        -moz-border-radius: 6px !important;
+        behavior: url(/frameworkAFIP/v1/node_modules/pie/PIE.htc) !important;
+        margin-bottom: 10px;
+        background-color: #FFF !important;
+		margin: 20px 0;
+		border-left-width: 8px !important;
+		border-left-style: solid !important;
+		border-left-color: rgba(0, 0, 0, 0.2);
+		border-left-color: #ccc\9;
+		box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+    }
+	
+	.table-responsive .table tr {
+		border-radius: 0px !important;
+        -webkit-border-radius: 0px !important;
+        -moz-border-radius: 0px !important;
+		margin:0 !important;
+		border-left-width: 0px !important;
+		border-left-style: none !important;
+		border-left-color:;
+		
+    }
+	
+	
+	
+	
+
+   .table td, .table-bordered td, .table td, .table-bordered th, {
+        /* Behave  like a "row" */
+        border: none;
+        padding: 5px 8px 8px 15px !important;
+        border-bottom: 0px solid #eee;
+        position: relative;
+        white-space: normal;
+        text-align: left;
+    }
+	
+	
+
+   .table td:before, .dt-responsive td:before {
+        /* Now like a table header */
+        position: relative !important;
+        display: inline-block;
+        padding-right: 10px;
+        white-space: nowrap;
+        text-align: left;
+        font-weight: bold;
+    }
+
+    .table td:before {
+        content: attr(data-title);
+    }
+
+   .table td:before {
+        position: relative;
+        display: inline-block;
+        width: 100%;
+        padding-right: 10px;
+        white-space: break-spaces;
+        text-align: left;
+        font-weight: bold;
+    }
+
+    .table-bordered {
+        border: 0px solid #ddd;
+    }
+
+
+    .dataTables_wrapper {
+        background-color: #f0f0f0;
+        padding: 10px;
+        border-radius: 6px !important;
+        -webkit-border-radius: 6px !important;
+        -moz-border-radius: 6px !important;
+        behavior: url(/frameworkAFIP/v1/node_modules/pie/PIE.htc) !important;
+    }
+
+    .dataTable {
+        width: 100% !important;
+    }
+
+    .table-bordered > thead > tr > th, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > tbody > tr > td, .table-bordered > tfoot > tr > td {
+        border: 1px solid #ddd !important;
+        border-top: 0px solid #ddd;
+    }
+	
+
+    .table tr.child {
+        margin-top: -23px !important;
+        padding-top: 14px;
+        border-top: none;
+        border-radius: 0px 0px 5px 5px !important;
+        padding: 10px 0px !important;
+    }
+
+     tr.child  td.child {
+        padding: 0 !important;
+        border: 0 !important;
+		border-top: none !important;
+    }
+
+    ul.dtr-details {
+        width: 100% !important;
+    }
+
+    ul.dtr-details li {
+        border-top: 1px solid #ddd !important;
+        border-bottom: 0px !important;
+        padding: 5px 8px 8px 15px !important;
+    }
+
+
+    table.dataTable > tbody > tr.child span.dtr-title {
+        display: block !important;
+    }
+	
+	.table td .btn {
+		margin-bottom:10px !important;
+	}
+	
+	.table-responsive .table  thead {
+    	display: table-header-group;
+  	}
+	.table-responsive .table td, .table-responsive .table th {
+		display: table-cell !important;
+		vertical-align: inherit;
+	}
+	
+	.table-responsive .table tr {
+		display: table-row !important;
+		vertical-align: inherit;
+	}
+	.table-responsive .table thead tr {
+		display: table-header-group !important;
+		position:relative !important;
+
+	}
+	
+	.table-responsive .table td:before {
+		all:none;
+    }
+	
+	.table-responsive .table td {
+      
+    }
+	
+	
+}
+

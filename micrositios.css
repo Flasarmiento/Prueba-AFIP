@@ -1,0 +1,520 @@
+/* Oculta el nombre del micositio en las home */
+#home-micrositios .nombreServicio {
+    position: absolute !important;
+    width: 1px !important;
+    height: 1px !important;
+    padding: 0 !important;
+    margin: -1px !important;
+    overflow: hidden !important;
+    clip: rect(0, 0, 0, 0) !important;
+    border: 0 !important;
+}
+
+#skipnav {
+    position: absolute;
+    top: -10000px;
+}
+
+.jumbotron.imagen-jumbotron {
+    background-image: none !important;
+}
+
+/* Destacado */
+.destacado {
+    background-color: #FFF;
+    padding: 24px 24px 30px 24px;
+    border-radius: 4px;
+    border: 1px #212121 solid;
+    margin-bottom: 60px;
+}
+
+.destacado h2,
+.destacado .h2,
+.destacado h2 strong {
+    font-size: 30px !important;
+    font-weight: bold !important;
+}
+
+.destacado h1,
+.destacado h2,
+.destacado h3,
+.destacado h4,
+.destacado h5 {
+    font-weight: bold !important;
+}
+
+.destacado>.btn {
+    margin-top: 30px !important;
+}
+
+
+.micrositios.jumbotron .jumbotron_body {
+    padding: 80px 0 140px;
+}
+
+.tab-content ul li {
+    margin-bottom: 10px;
+    line-height: normal;
+}
+
+.tab-content ul li a {
+    font-size: 0.9em;
+    display: block;
+    border-top: 1px solid #ccc;
+    padding: 15px 5px 5px;
+}
+
+/*BUSCADOR*/
+
+
+/* parche genericos/micrositios */
+
+#micrositios {
+    z-index: 2555 !important;
+    display: block;
+    position: relative;
+    padding: 40px 0 40px 0;
+    margin-top: -82px !important;
+}
+
+.micrositios.jumbotron .jumbotron_body {
+    padding: 60px 0 130px !important;
+}
+
+.dataTables_scrollBody {
+    box-shadow: 0px 3px 2px rgb(230 230 230) !important;
+    width: 99% !important;
+}
+
+#accesos .micrositio a {
+    display: inline-block;
+    padding: 10px;
+    width: 100%;
+}
+
+#accesos .micrositio a:hover {
+    background-color: #E7F5FB !important;
+}
+
+#accesos td {
+    border-left: 1px solid #c9c9c9 !important;
+    border-right: 1px solid #c9c9c9 !important;
+    border-bottom: 1px solid #c9c9c9 !important;
+}
+
+
+#accesos_wrapper.dataTables_wrapper {
+    padding: 0 !important;
+    background: none;
+    z-index: 2500;
+    display: block;
+    position: relative;
+    margin-top: -98px !important;
+    margin-bottom: 30px;
+}
+
+#accesos_filter label {
+    width: 100% !important;
+    font-size: 1.5em !important;
+    font-weight: 600;
+    position: absolute;
+    left: 0;
+    right: 0;
+    line-height: 60px;
+    top: -120px !important;
+    margin: 0 auto;
+    z-index: 1000;
+    color: #333;
+}
+
+
+
+
+
+.dataTables_scrollHead,
+#accesos_info,
+#accesos_paginate,
+#accesos_length,
+.todas {
+    display: none;
+}
+
+.micrositio {
+    width: 80%;
+}
+
+.requisito {
+    width: 20%;
+    text-align: right !important;
+}
+
+.dataTables_scrollBody {
+    height: auto !important;
+    max-height: 282px;
+    overflow: auto !important;
+    width: 100% !important;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+}
+
+#tab001 .panel-tramite-habilitado {
+    padding: 5px 15px 10px;
+    margin: 0 0 30px;
+}
+
+#tabs {
+    font-size: 1.05em !important;
+}
+
+#contenidoBuscador .dataTables_empty {
+    font-size: 1em !important;
+    text-align: center;
+}
+
+.dataTables_scrollHead,
+#accesos_info,
+#accesos_paginate,
+#accesos_length,
+.todas {
+    display: none;
+}
+
+.micrositio {
+    width: 100%;
+}
+
+.dataTables_scroll {
+    margin-top: -67px;
+    margin-left: -4px;
+    position: absolute;
+    width: 100%;
+}
+
+.dataTables_scrollBody {
+    height: auto !important;
+    max-height: 282px;
+    overflow: auto !important;
+    width: 90% !important;
+    margin: 0 auto;
+    border: 1px solid #e6e6e6;
+    border-top: 1px solid #e6e6e6;
+}
+
+#contenidoBuscador .dataTables_empty {
+    font-size: 1.2em !important;
+    padding: 10px;
+}
+
+#accesos,
+#transparencia {
+    margin-top: 0;
+    background: #fff !important;
+}
+
+#accesos tr,
+#accesos td,
+#transparencia th,
+#transparencia tr,
+#transparencia td,
+#transparencia th {
+    border: none !important;
+}
+
+#accesos tr,
+#transparencia tr {
+    background: none !important;
+}
+
+#accesos td,
+#transparencia td {
+    border: none !important;
+    text-align: left;
+    word-break: break-word;
+}
+
+#accesos td.requisito a {
+    font-size: 1.1em !important;
+}
+
+@media (max-width: 576px) {
+
+    #accesos td,
+    #transparencia td {
+        font-size: 1em !important;
+    }
+
+    #accesos td.requisito a {
+        font-size: 0.8em !important;
+    }
+
+
+}
+
+#accesos td a,
+#transparencia td a {
+    font-size: 1.2em !important;
+}
+
+#accesos_filter {
+    text-align: center;
+    position: relative;
+}
+
+#accesos_filter label,
+#accesos_filter .label {
+    width: 100%;
+    font-size: 1.5em !important;
+    line-height: 50px !important;
+    font-weight: 600;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -100px;
+    margin: 0 auto;
+    z-index: 1000;
+    color: #333;
+}
+
+@media (max-width: 768px) {
+    #accesos_filter input[type="text"] {     
+        margin: 0 !important;
+    }
+
+    .dataTables_scroll {
+        margin-top: -67px;
+        margin-left: -7px !important;
+        position: absolute;
+        width: 100%;
+    }
+    article .btn {
+      white-space: normal;
+        height: auto !important; 
+    }
+}
+
+@media (max-width: 578px) {
+    .dataTables_scroll {
+        margin-left: 1px;
+    }
+    .jumbotron .btn {
+        white-space: normal;
+        height: auto !important; 
+    }
+}
+
+@media (max-width: 376px) {
+    .dataTables_scroll {
+        margin-left: -1px !important;
+    }
+   
+}
+@media (max-width: 343px) {
+    .dataTables_filter label::after {
+        display: none !important;
+    }
+}
+
+#accesos_filter input[type="text"] {
+    margin: 0 0 0 5px;
+    width: 90%;
+    display: inline-block;
+    font-size: 21px;
+    font-weight: 400;
+    height: 54px;
+    padding: 6px 50px 6px 8px;
+    color: #111;
+    border: solid 1px #cccccc;
+    line-height: 1.42857143;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+
+}
+
+#accesos_filter input[type="text"]:focus {
+    border: 1px solid rgb(0, 114, 188);
+}
+
+#accesos .even,
+#accesos .odd,
+#transparencia .even,
+#transparencia .odd,
+{
+border-bottom: 1px dotted #ccc !important;
+}
+
+.dataTables_wrapper {
+    padding: 0 !important;
+    background: none;
+    z-index: 2500;
+    display: block;
+    position: relative;
+    margin-top: -40px;
+    margin-bottom: 30px;
+}
+
+/*LISTADO DE MICROSITIOS*/
+#listado-micrositios-navbar-collapse {
+    width: 100%;
+}
+
+#listado-micrositios-navbar-collapse .nav-pills {
+    margin: 0;
+}
+
+#listado-micrositios-navbar-collapse .nav-pills>li {
+    float: none;
+    margin-right: 0;
+    line-height: inherit;
+}
+
+#listado-micrositios-navbar-collapse .nav-pills>li>a {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    color: #0695d6 !important;
+    border: 1px solid #eee;
+    border-right: 0;
+    margin-bottom: 1px;
+    margin-right: 1px;
+}
+
+#listado-micrositios-navbar-collapse .nav>li>a:hover {
+    background-color: #0f7ba9 !important;
+    color: #fff !important;
+    border: 1px solid #17b2f8;
+}
+
+#listado-micrositios-navbar-collapse .nav-pills>li>a:focus {
+    color: #0f7ba9 !important;
+    background-color: #e7f5fb !important;
+}
+
+#listado-micrositios-navbar-collapse .nav-pills>li.active>a,
+#listado-micrositios-navbar-collapse .nav-pills>li.active>a:hover,
+#listado-micrositios-navbar-collapse .nav-pills>li.active>a:focus {
+    background: #f1f1f1 !important;
+    color: #333 !important;
+    border: 1px solid #057ab0;
+    border-right: 1px solid #f1f1f1;
+    margin-right: 0;
+    outline: none !important;
+}
+
+#contenidoListadoVencimientos .tab-pane.active {
+    background-color: #f1f1f1;
+    padding: 30px 30px 10px;
+    min-height: 350px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: 1px solid #057ab0;
+}
+
+@media (max-width: 766px) {
+
+    /*LISTADO DE MICROSITIOS*/
+    #listado-micrositios .col-xs-12.p-r-0,
+    #listado-micrositios .col-xs-12.p-l-0 {
+        padding-right: 15px !important;
+        padding-left: 15px !important;
+    }
+
+    #tabs {
+        font-size: 1.2em;
+    }
+
+    #btnListadoMicrositios {
+        margin-top: -40px !important;
+        margin-bottom: 30px !important;
+    }
+
+    #listado-micrositios-navbar-collapse ul {
+        margin-bottom: 20px !important;
+    }
+
+    #listado-micrositios-navbar-collapse .nav-pills>li>a {
+        border: 1px solid #f1f1f1;
+    }
+
+    #listado-micrositios-navbar-collapse .nav-pills>li.active>a,
+    #listado-micrositios-navbar-collapse .nav-pills>li.active>a:focus {
+        border-right: 1px solid #057ab0 !important;
+        border-top-right-radius: inherit !important;
+        border-bottom-right-radius: inherit !important;
+    }
+
+    #contenidoListadoVencimientos .tab-pane.active {
+        border-top-left-radius: 4px !important;
+        background-color: #f9f9f9;
+    }
+
+    #listado-micrositios .navbar-default {
+        min-height: 15px !important;
+    }
+    
+
+
+}
+
+
+
+td.tramite {
+    width: 60% !important;
+    text-align: left;
+    margin: 0;
+    text-transform: inherit;
+    border: none;
+    width: 100%;
+    padding: 10px;
+    font-size: 1.2em !important;
+    font-weight: 500;
+}
+
+td.requisito {
+    width: 40% !important;
+    text-align: right !important;
+    padding-right: 20px;
+}
+
+
+
+#accesos .even,
+#accesos .odd {
+    border-bottom: 1px dotted #ccc !important;
+}
+
+#contenidoListadoVencimientos button {
+    display: inline-block;
+}
+
+#contenidoBuscador button {
+    display: block;
+    background: none;
+    color: #139ED9;
+    text-align: left;
+    margin: 0;
+    text-transform: inherit;
+    border: none;
+    width: 100%;
+    padding: 10px;
+    font-size: 1.2em !important;
+    font-weight: 600;
+}
+
+#contenidoBuscador button:hover,
+#contenidoListadoVencimientos button:hover {
+    background-color: #E7F5FB !important;
+    color: #0A5575;
+}
+
+.navbar-toggle.btn-medium {
+
+    font-size: 22px !important;
+    font-weight: bold !important;
+    text-align: left !important;
+    float: left !important;
+    width: 100% !important;
+}
+
